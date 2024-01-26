@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+header,footer{
+    background-color: #1F2937;
+    font-size:48px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.header-content{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.main-content{
+background-color: white;
+display: flex;
+flex-direction: column;
+flex: 1;
+}
+article{
+    font-size: 30px;
+    color: black;
+}
+.article-random{
+    background-color: blue;
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+.article-quote{
+    background-color: red;
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+.article-sign-up{
+    background-color: green;
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+.footer-content{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
