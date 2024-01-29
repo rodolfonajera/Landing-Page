@@ -8,7 +8,6 @@ body {
 header,
 footer {
     background-color: #1F2937;
-    font-size: 48px;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -17,44 +16,74 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .header-content-left {
-    margin: 2rem 4rem 10rem 16rem;
+    margin: 2rem 4rem 4rem 7rem;
     display: flex;
     flex-direction: column;
     flex: 1;
     text-align: left;
 }
-h5{
+.header-logo{
    margin-top: 0rem;
-   margin-bottom: 10rem;
+   margin-bottom: 4rem;
+   font-size: 24px;
+   color: #F9FAF8
 }
-h1,p,button{
+.header-title{
+    font-size: 48px;
+    font-weight: 800; /*extra-bold*/
+    color: #F9FAF8
+}
+.secondary-text{    /*For: Header paragraph,links and placeholder text*/
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-title,p,button{
     margin: 0px;
 }
-
-.header-content-right {
-   
+.header-content-right {   /*-----RIGHT-CONTAINER-----*/
     display: flex;
     flex-direction: column;
     flex: 1;
-    text-align: left;
-
+    margin: 2rem 4rem 4rem 7rem;
+    padding: 0em;
 }
+.header-links{
 
-
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    width: 28rem;
+    margin-left: 1em;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.header-image-container{    /*-----RIGHT-placeholder CONTAINER-----*/
+    display: flex;
+    width: 27rem;
+    height: 12rem;
+    background-color: gray;
+    margin-top: 5em;
+    margin-right: 7em;
+    justify-content: center;
+    align-items: center;
+}
+/*###############################################################################*/
+/*------------------------------------------------------------------------------*/
 button {
     font-family: Roboto, sans-serif;
     border: none;
     border-radius: 8px;
-    font-size: 40px;
-    background: #3882F6;
+    font-size: 20px;
+    background: #3882F6; 
     color: white;
     padding: 8px 8px;
     display: block;
-    width: 300px;
+    width: 6rem;
     height: auto;
 }
 
