@@ -61,22 +61,22 @@ a {
 .header-main {
     display: flex;
     justify-content: space-between;
-    margin: 0px 150px 80px 150px;
+   margin: 0px 150px 80px 150px;
 }
 
 /*-------------------------header-left and header-right containers--*/
 .header-left {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     text-align: left;
+    gap: 10px;
     
 }
 
 .header-right {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
 }
 /*-----------------End of: header-left and header-right containers--*/
 
@@ -104,6 +104,11 @@ button {
     display: block;
     width: 100px;
     /*---tbd---*/
+}
+
+#saxophone{
+    height: 215px;
+    width: 480px;
 }
 
 /*-------------------------End of header-main-----------------------*/
