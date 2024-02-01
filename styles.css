@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+   border: 1px solid red;
 }
 
 body {
@@ -25,7 +25,7 @@ footer {
     flex-direction: column;
 }
 
-/*-------------------------header-top-------------------------------*/
+/*-------------------------Start of header-top----------------------*/
 
 .header-top {
     display: flex;
@@ -56,14 +56,14 @@ a {
 
 /*-------------------------End of header-top------------------------*/
 
-/*-------------------------header-main------------------------------*/
+/*-------------------------Start of header-main---------------------*/
 .header-main {
     display: flex;
     justify-content: space-between;
-   margin: 0px 150px 80px 150px;
+    margin: 0px 150px 80px 150px;
 }
 
-/*-------------------------header-left and header-right containers--*/
+/*----------------start of header-left and header-right containers--*/
 .header-left {
     display: flex;
     flex-direction: column;
@@ -76,6 +76,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 /*-----------------End of: header-left and header-right containers--*/
 
@@ -106,60 +107,87 @@ button {
 }
 
 #saxophone{
+    display: flex;
     height: 215px;
-    width: 480px;
+    width:480px;
+    flex:1 1 0;
 }
-
 /*-------------------------End of header-main-----------------------*/
 
-
-
-
-/*###############################################################################*/
-/*---------------------------------------------------------------------------------
+/*-------------------------Start of main-content--------------------*/
 
 .main-content {
     background-color: white;
     display: flex;
     flex-direction: column;
-    flex: 1;
+    /*flex:1----tbd*/   
 }
 
-article {
-    font-size: 30px;
-    color: black;
-}
+/*-------------------------Start of article-one---------------------*/
 .article-one-container{
     display: flex;
-    flex-direction: column;
-    padding-top: 1rem;
-    flex: 1 1 5rem;
     justify-content: center;
-    background-color: white;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin: 20px 0px 20px 0px;
 }
-.article-one {
-    background-color: white;
+
+.article-one-content{
+    display: flex;
+    flex-direction: column;
+}
+.article-one-title{
+display: flex;
+justify-content: center;
+font-size: 36px;
+font-weight: 800 ;
+color: #1F2937;
+}
+.card-container{
+display:flex;
+flex-direction: row;
+justify-content: center;;
+flex-wrap:wrap;
+gap: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 215px;
+    width: 200px;
+    border-radius: 12px;;
+}
+#music{
+    display: flex;
+}
+/*-------------------------Start of article-two---------------------*/
+.article-two-container{
+display:flex;
+justify-content: center;
+background-color: #E5E7EB;;
+}
+.article-two-content{
+    display: flex;
+    flex-direction: column;
     
 }
-.article-title{
-    background-color: yellow;
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
 }
 
-.article-two {
-    background-color: red;
-    padding-top: 2rem;
-    flex: 1 1 5rem;
-}
 
-.article-three {
-    background-color: green;
-    padding-top: 2rem;
-    flex: 1 1 2rem;
-}
 
-.footer-content {
-    padding: 0rem;
+/*-------------------------End of: main-content---------------------*/
+/*-------------------------Start of footer--------------------------*/
+.footer-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  /*  flex:1; */
 }
-*/
+/*-------------------------End of: of footer------------------------*/
+
+
+
+
