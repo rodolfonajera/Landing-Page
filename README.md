@@ -65,6 +65,10 @@ font-size: 36px
 font-weight: 300 /*light italic*/
 color: #1F2937
 }
+
+background-color{
+color: #E5E7EB;
+}
 -------------------------------------------------------------------------------
 Article-three
 (call to action)-same color as button, same font size for button text
