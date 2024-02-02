@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-   border: 1px solid red;
+    border: 1px solid red;
 }
 
 body {
@@ -114,7 +114,7 @@ button {
 }
 /*-------------------------End of header-main-----------------------*/
 
-/*-------------------------Start of main-content--------------------*/
+/*-------------------------Start of main-content-------------------------*/
 
 .main-content {
     background-color: white;
@@ -133,6 +133,7 @@ button {
 .article-one-content{
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 .article-one-title{
 display: flex;
@@ -158,17 +159,20 @@ gap: 50px;
 #music{
     display: flex;
 }
+/*-------------------------End of article-one-----------------------*/
+
 /*-------------------------Start of article-two---------------------*/
 .article-two-container{
 display:flex;
 justify-content: center;
 background-color: #E5E7EB;
-margin: 20px 0px;
+margin: 0px 0px;
 }
 .article-two-content{
     display: flex;
     flex-direction: column;
-  
+    margin: 40px 0px;
+   
 }
 .quote{
     font-size: 36px;
@@ -182,7 +186,51 @@ margin: 20px 0px;
     font-weight: 600;
     text-align: right;
 }
-/*-------------------------End of: main-content---------------------*/
+/*-------------------------End of article-two-----------------------*/
+
+/*-------------------------Start of article-three-------------------*/
+.article-three-container
+{
+    display:flex;
+    justify-content:center;
+}
+.article-three-content{
+    display:flex;
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+    gap: 100px;
+    padding: 20px 160px;
+    margin: 40px 0px;
+}
+.banner-left{
+    display:flex;
+    flex-direction: column;
+}
+.banner-right{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.call-title{
+    font-size: 24px;
+    color: #F9FAF8;
+    text-align:left;
+}
+/*
+.call-info{}
+*/
+.call-button{
+    font-size: 20px;
+    color: #F9FAF8;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 4px 12px;
+}
+
+/*-------------------------End of article-three---------------------*/
+/*-------------------------End of: main-content--------------------------*/
 /*-------------------------Start of footer--------------------------*/
 .footer-content{
     display:flex;
