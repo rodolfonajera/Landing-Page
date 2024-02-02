@@ -10,8 +10,8 @@ DESIRED OUTCOME NOTES
 -The font that’s being used in the images is roboto.
 -Hero text is the statement that appears at the top of a web page.
 -Website contains sections: Header,article1,2,3 and footer
--------------------------------------------------------------------------------
----Header-top---
+
+#Header-top
 
 header,footer {
     background-color: #1F2937;
@@ -26,8 +26,8 @@ font-size: 24px;
     font-size: 18px;
     color: #E5E7EB;
 }
--------------------------------------------------------------------------------
-Header-main
+
+#Header-main
 
 header-title{
     font-size: 48px;
@@ -46,16 +46,16 @@ button {
     width: 6rem; /*---tbd---*/
     height: auto;
 }
--------------------------------------------------------------------------------
-Article-one (Information Text)
+
+#Article-one (Information Text)
 
 info-header-text{
 font-size: 36px;
 font-weight: 800 extra bold ;
 color: #1F2937;
 }
--------------------------------------------------------------------------------
-Article-two
+
+#Article-two
 background-color{
 #E5E7EB
 }
@@ -69,11 +69,10 @@ color: #1F2937
 background-color{
 color: #E5E7EB;
 }
--------------------------------------------------------------------------------
-Article-three
+
+#Article-three
 (call to action)-same color as button, same font size for button text
 -adjust button width/size
--------------------------------------------------------------------------------
-Footer 
+
+#Footer 
 Same fonts/color as Header
--------------------------------------------------------------------------------
